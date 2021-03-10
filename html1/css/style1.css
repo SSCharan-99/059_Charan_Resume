@@ -1,11 +1,9 @@
+
 *{
     margin:0;
     padding: 0;
     font-family: Cambria, Cochin, sans-serif;
 }
-
-
-
 ul{
     float: right;
     list-style-type: disc;
@@ -19,7 +17,8 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: yellow;
+    color:white;
+    
     padding: 5px 20px;
     border: 1px solid whitesmoke;
     transition: 0.6s ease;
@@ -117,20 +116,21 @@ color: white;
 .java {width: 60%; background-color: black;}
 
 .content-footer,
-.masthead-heading,
-.masthead-intro {
+.mhead-heading,
+.mhead-intro {
 text-align: center;
 }
 
-.masthead {
+.mhead {
 padding: 6em 0;
 
 background-size: cover;
 background-repeat: no-repeat;
 border-top: solid 1em #FFCF33;
+
 }
 
-.masthead-intro {
+.mhead-intro {
 
 margin-bottom: 0.1em;
 
@@ -138,7 +138,7 @@ font-family: "Gentium Book Basic", Georgia, serif;
 font-size: 2em;
 }
 
-.masthead-heading {
+.mhead-heading {
 
 color: #F1C863;
 margin-top: -0.2em;
@@ -179,13 +179,9 @@ section > h1 {
 margin-top: 2em;
 }
 
-.content-footer,
-.masthead-heading,
-.masthead-intro {
-text-align: center;
-}
 
-.masthead {
+
+.mhead {
 padding: 6em 0;
 background-image: url('beach.jpg');
 background-size: cover;
@@ -193,13 +189,13 @@ background-repeat: no-repeat;
 border-top: solid 1em #FFCF33;
 }
 
-.masthead-intro {
+.mhead-intro {
 margin-bottom: 0.1em;
 font-family: "Gentium Book Basic", Georgia, serif;
 font-size: 2em;
 }
 
-.masthead-heading {
+.mhead-heading {
 margin-top: -0.2em;
 font-family: "Open Sans", "Helvetica Neue", sans-serif;
 font-weight: bold;
@@ -231,14 +227,17 @@ margin-top: 2em;
 }
 .content-footer {
 margin: 50px 0;
-padding: 20px 0;
+padding: 35px 0;
+border-bottom: 0.5cm;
 text-align: center;
 background-color: #73A8C2;
 text-decoration: none;
 }
-.social > li {
-display: inline-block;
-margin: 0 5px;
+.social {
+display: inline;
+text-align: left;
+margin: 0 400px;
+color: #222222;
 }
 .content-footer > p {
 color: #F7EDE1;
@@ -250,10 +249,10 @@ color: #F1C863;
 }
 
 @media only screen and (max-width: 500px) {
-.masthead {
+.mhead {
     padding: 3em 0;
 }
-.masthead-heading {
+.mhead-heading {
     font-size: 3em;
 }
 .content-footer {
@@ -267,7 +266,7 @@ color: #F1C863;
   
   .decoration{
     background-color:#737373;
-    height:30px;
+    height:40px;
     margin:20px;
   }
   .red{

@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Cambria, Cochin, sans-serif;
+}
+ul{
+    float: right;
+    list-style-type: disc;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: verdana;
+   
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid whitesmoke;
+    transition: 0.6s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a:hover{
+    background-color:black;
+    
+
+}
+ul li.active a{
+    background-color:black;
+    color: whitesmoke;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+    font-weight: 500;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title,footer{
+    text-align:center;
+    
+  }
+  
+  .decoration{
+    background-color:#737373;
+    height:48px;
+    margin:10px;
+  }
+  .red{
+    color:#990000;
+    border-top: 20cm;
+  }
+  
+  h4{
+  
+    border:1px #990000 solid;
+    border-width: 0px 0px 5px 0px;
+    font-size: 20px;
+    
+  }
+  h5 {
+      font: size 18px;
+  }
+  
+  #contact-info,a:link{
+    color:#737373;
+    height: 1.5cm;
+    
+  }
+  .years{
+    float:right;
+  }
+  
+  footer{
+    font-style:italic;
+    line-height:5;
+    border-bottom: 1cm;
+  }
+  .container {
+  
+  background-color: #ddd;
+  text-align:center;
+  
+  }
+  
+  .skills {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  
+  }
+  
+  .html {width: 40%; background-color: black; }
+  .css {width: 40%; background-color: black;}
+  .python {width: 69%; background-color: black;}
+  .java {width: 56%; background-color: black;}
+  .mysql {width: 60%; background-color: black;}
+  
